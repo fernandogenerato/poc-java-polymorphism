@@ -1,5 +1,6 @@
 package com.polimorfismo.service.Impl;
 
+import com.polimorfismo.enums.Transaction;
 import com.polimorfismo.model.Account;
 import com.polimorfismo.service.MoneyService;
 
@@ -10,10 +11,9 @@ public class MoneyServiceImpl implements MoneyService {
         if (origin.getMoney() > value) {
             origin.debitMoney(value);
             destiny.setMoney(value);
-            System.out.println("\nTransaction has been completed with success\n");
-
+            System.out.println(Transaction.OK.getValue());
         } else {
-            System.out.println("\nInsufficient Money to complete transaction\n");
+            System.out.println(Transaction.ERROR.getValue());
         }
     }
 }
