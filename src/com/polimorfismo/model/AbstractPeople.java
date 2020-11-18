@@ -1,8 +1,12 @@
 package com.polimorfismo.model;
 
 import java.util.Map;
-
+/**
+ * @author Fernando G.
+ * @version 0.1
+ */
 public abstract class AbstractPeople {
+
     private int age;
     private String Name;
     private Map<String, String> Documents;

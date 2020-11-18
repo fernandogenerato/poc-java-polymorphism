@@ -1,5 +1,9 @@
 package com.polimorfismo.enums;
 
+/**
+ * @author Fernando G.
+ * @version 0.1
+ */
 public enum Transaction {
 
     OK("Transaction has been completed with success"),

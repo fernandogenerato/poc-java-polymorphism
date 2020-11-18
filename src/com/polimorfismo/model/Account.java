@@ -1,7 +1,10 @@
 package com.polimorfismo.model;
 
 import java.util.UUID;
-
+/**
+ * @author Fernando G.
+ * @version 0.1
+ */
 public class Account {
 
     private int Id;

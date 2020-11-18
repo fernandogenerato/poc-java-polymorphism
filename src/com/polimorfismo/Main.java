@@ -6,10 +6,17 @@ import com.polimorfismo.model.Customer;
 import java.util.HashMap;
 import java.util.Map;
 
+
+/**
+ * @author Fernando G.
+ * @version 0.1
+ */
 public class Main {
 
     public static void main(String[] args) {
-
+/**
+ * Implementation example*
+ */
         Customer customer1 = new Customer();
         customer1.setAge(27);
         customer1.setName("Fernando");
